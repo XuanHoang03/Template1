@@ -1,0 +1,22 @@
+ul.admin_list {
+    margin: 0;
+    padding: 0;
+}
+
+ul.admin_list li {
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.lietke {
+    text-align: center;
+}
+
+table {
+    margin: auto 0;
+}
+
+.clear {
+    clear: both;
+}
