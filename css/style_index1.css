@@ -1,0 +1,398 @@
+body {
+    background-color: #2B173E;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #18181B;
+    color: aliceblue;
+    width: 100%;
+    height: 80px;
+}
+
+.id {
+    position: absolute;
+    left: 92%;
+}
+
+.sidebar {
+    background-color: #18181B;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin: -6px;
+}
+
+.sidebar .btn-group {
+    width: 20%;
+    justify-content: center;
+    background-color: #434040;
+}
+
+.sidebar .btn-group button {
+    width: 120px;
+    background-color: #FFFAFA;
+    color: #000;
+}
+
+/* header */
+.header {
+    background: #434040;
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+
+.img {
+    height: 45px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+.search {
+    height: 45px;
+    background: #FFFAFA;
+    border-radius: 20px;
+    width: 140px;
+
+}
+
+.login {
+    position: absolute;
+    left: 92%;
+    top: 5%;
+    width: 140px;
+    height: 45px;
+    font-size: 20px;
+    background: #FD0808;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.vip {
+    position: absolute;
+    left: 84%;
+    top: 0%;
+}
+
+.content {
+    color: aliceblue;
+    width: 100%;
+    height: 2000px;
+}
+
+.phim {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.phim .item {
+    text-align: center;
+    width: 20%;
+    padding: 0;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.phim .item img {
+    width: 300px;
+    height: 435px;
+}
+
+.infor_phim {
+    list-style: none;
+    width: 100%;
+    height: 1500px;
+    padding-top: 410px;
+    position: relative;
+}
+
+.infor_phim img {
+    width: 300px;
+    height: 435px;
+}
+
+.chitiet_phim {
+    margin-left: 60px;
+    width: 68%;
+}
+
+.trailer {
+    position: absolute;
+    left: 34%;
+    bottom: 25%;
+}
+
+.image_phim {
+    width: 32%;
+    display: flex;
+    justify-content: end;
+}
+
+.chitiet_phim .trailer {
+    width: 100%;
+    height: 500px;
+}
+
+p.thongtin {
+    margin-top: 10%;
+}
+
+.phim .item a {
+    text-decoration: none;
+    color: white;
+}
+
+.phim .item a:hover {
+    color: #b3b3b3;
+}
+
+p.tenphim {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.footer {
+    color: aliceblue;
+    background-color: #18181B;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    margin: auto 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* dangnhap */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    background-color: #2B173E;
+}
+
+.box {
+    border-radius: 6px;
+    background-color: #363636;
+    height: 40%;
+    width: 30%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.field {
+    padding: 0 10px;
+}
+
+.input-header {
+    border-radius: 20px;
+    width: 20%;
+    font-size: 20px;
+    padding: 16px 10px;
+    height: 45px;
+}
+
+.button {
+    width: 80%;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 20px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.button1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 20px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+/* button.button.fix {
+    margin-left: 32px;
+} */
+
+.or {
+    background-color: #fff;
+    width: 70px;
+    height: 25px;
+    margin: auto;
+    margin-top: 16px;
+    text-align: center;
+    color: #000;
+}
+
+.fix {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    margin: 0;
+    margin-top: 16px;
+    padding: 16px;
+}
+
+i {
+    float: right;
+}
+
+
+/* naptien */
+/* .row {
+    padding: 40px 20px;
+}
+
+.time {
+    width: 50%;
+    background-color: #FFFFFF;
+}
+
+.pay {
+    width: 50%;
+    background-color: #000000;
+    color: #FFFFFF;
+    position: relative;
+} */
+.fix1 {
+    margin-left: -20px;
+}
+
+.fix2 {
+    padding: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.qr {
+    width: 124px;
+    height: 124px;
+}
+
+.lietke1 {
+    position: absolute;
+    left: 62%;
+    top: 58%;
+}
+
+.congcu {
+    position: absolute;
+    right: 0;
+}
+
+.nutxemphim {
+    position: absolute;
+    left: 290px;
+    top: 57%;
+}
+
+/* loginadmin */
+
+ul.admin_list {
+    margin: 0;
+    padding: 0;
+}
+
+ul.admin_list li {
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.lietke {
+    text-align: center;
+}
+
+table {
+    margin: auto 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* binhluan */
+.binhluan {
+    position: absolute;
+    width: 30%;
+    height: 670px;
+    top: 16%;
+    left: 69%;
+    border: #b3b3b3 solid 5px;
+    background-color: #434040;
+}
+
+.nhapbinhluan {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.lietkebinhluan {
+    color: antiquewhite;
+    margin: 10px;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 5px 6px 6px 2px #b3b3b3;
+    border-radius: 4px;
+}
+
+.titlebinhluan {
+    display: flex;
+    align-items: center;
+    color: #2B173E;
+    font-weight: bolder;
+}
+
+.tenbinhluan {
+    width: 50%;
+}
+
+.nhapbinhluan {
+    width: 96%;
+}
+
+.user-img {
+    margin-top: 4px;
+}
+
+.baoloi {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    height: 500px;
+    width: 70%
+}

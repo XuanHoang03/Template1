@@ -1,0 +1,135 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ul.admin_list {
+    margin: 0;
+    padding: 0;
+}
+
+ul.admin_list li {
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.lietke {
+    text-align: center;
+}
+
+/* table {
+    margin: auto 0;
+} */
+
+.clear {
+    clear: both;
+}
+
+table {
+    background-color: #D9D9D9;
+}
+
+.tb {
+    border: none;
+    background: #2C2727;
+    height: 400px;
+    width: 400px;
+    margin: 150px auto;
+}
+
+.input-login {
+    width: 70%;
+    padding: 10px 0;
+    margin: 0px 56px;
+}
+
+.input1 {
+    width: 97%;
+    padding: 10px 0;
+    float: right;
+}
+
+input[type="submit"] {
+    margin: 0 175px;
+    width: 100px;
+    height: 40px;
+    background-color: #3E8ED0;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+/* trang quan ly */
+.header {
+    height: 100px;
+    background-color: #0099CC;
+    color: #FF6600;
+    text-align: center;
+    font-size: 24px;
+    padding: 38px 0;
+}
+
+.log-out {
+    position: absolute;
+    left: 1240px;
+    top: 100px;
+    font-size: 20px;
+    background-color: #D9D9D9;
+    height: 43px;
+    width: 240px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.qly {
+    padding: 10px 170px;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.tb-dm {
+    margin: 40px auto;
+
+}
+
+.liet-ke {
+    width: 100%;
+    height: 300px;
+}
+
+.liet-ke1 {
+    text-align: center;
+}
+
+.btn-sua {
+    color: #FD0808;
+    border: 2px solid #000;
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-xoa {
+    color: #FD0808;
+    border: 2px solid #000;
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+
+}
+
+/* them phim */
+.tb-add {
+    width: 100%;
+}
